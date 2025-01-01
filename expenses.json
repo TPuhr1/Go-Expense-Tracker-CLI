@@ -1,0 +1,25 @@
+{
+ 	"expenses": [
+ 	 	{
+ 	 	 	"id": 1,
+ 	 	 	"date": "2024-12-31",
+ 	 	 	"description": "Lunch",
+ 	 	 	"amount": 50,
+ 	 	 	"category": "Food"
+ 	 	},
+ 	 	{
+ 	 	 	"id": 2,
+ 	 	 	"date": "2024-12-31",
+ 	 	 	"description": "Gift",
+ 	 	 	"amount": 99,
+ 	 	 	"category": "Other"
+ 	 	},
+ 	 	{
+ 	 	 	"id": 3,
+ 	 	 	"date": "2024-12-31",
+ 	 	 	"description": "Exact",
+ 	 	 	"amount": 136,
+ 	 	 	"category": "Exact"
+ 	 	}
+ 	]
+}
