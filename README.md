@@ -3,16 +3,15 @@ This is a project from Roadmap.sh, here is the link: https://roadmap.sh/projects
 
 The project currently keeps track of the budget and expenses with the use of .json files. The files in the project are populated with test data. They can be deleted and will be initialized again through running the project. The "expenses.json" file will be created once the first addition is made, and the "budget.json" file will be created once the first budget is set.
 
-# Make file commands for Linux
+# --Make file commands for Linux--
 
 # Make Build
+Builds the project 
 # Make Install
-Build and Install will allow you to simply use expense-tracker without the file location for faster commands by copying it to your /bin folder
+Moves the project into ./bin folder so you can simply use expense-tracker in terminal instead of the projects file location
 
 # Make Uninstall
-Uninstall will remove it from your /bin folder and allow you to build/install new changes made to the project
-
-
+Uninstall will remove it from your ./bin folder and allow you to build/install new changes made to the project
 
 # For the following commands, I will assume you are on linux and have installed this into your /bin folder
 
