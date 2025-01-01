@@ -5,12 +5,12 @@ The project currently keeps track of the budget and expenses with the use of .js
 
 # Make file commands for Linux
 
-# Build and Install will allow you to simply use expense-tracker without the file location for faster commands by copying it to your /bin folder
-Make Build
-Make Install
+# Make Build
+# Make Install
+Build and Install will allow you to simply use expense-tracker without the file location for faster commands by copying it to your /bin folder
 
-# Uninstall will remove it from your /bin folder and allow you to build/install new changes made to the project
-Make Uninstall
+# Make Uninstall
+Uninstall will remove it from your /bin folder and allow you to build/install new changes made to the project
 
 
 
