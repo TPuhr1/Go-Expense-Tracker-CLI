@@ -13,26 +13,25 @@ Moves the project into ./bin folder so you can simply use expense-tracker in ter
 # Make Uninstall
 Uninstall will remove it from your ./bin folder and allow you to build/install new changes made to the project
 
-# For the following commands, I will assume you are on linux and have installed this into your /bin folder
+# --For the following commands, I will assume you are on linux and have installed this into your /bin folder--
 
-# Add command, the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
-expense-tracker add --description "description" --amount ## --category "category"
+# expense-tracker add --description "description" --amount ## --category "category"
+Add command, the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
 
-# Delete command, allows the user to delete expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
-expense-tracker delete --id ##
+# expense-tracker delete --id ##
+Delete command, allows the user to delete expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
 
-# List command, allows you to list all or just some of your expenses based on their category
-expense-tracker list
-expense-tracker list --category "category"
+# expense-tracker list
+# expense-tracker list --category "category"
+List command, allows you to list all or just some of your expenses based on their category
 
-# Summary command, allows you to see a summary of all charges, how much money you've spent in total, or just the ones that belong to a particular month. The month requires no quotes just a valid number(1-12).
-expense-tracker summary
-expense-tracker --month ##
+# expense-tracker summary
+# expense-tracker summary --month ##
+Summary command, allows you to see a summary of all charges, how much money you've spent in total, or just the ones that belong to a particular month. The month requires no quotes just a valid number(1-12).
 
-# Budget commands, there are two commands which are related to budget. The first allows you to set a budget for a particular month, while the second allows you to simply check the budget for a provided month. No quotes needed, just valid numbers for thier fields
-expense-tracker budget --month ## --amount ##
+# expense-tracker budget --month ## --amount ##
+# expense-tracker check-budget --month ##
+Budget commands, there are two commands which are related to budget. The first allows you to set a budget for a particular month and amount, while the second allows you to simply check the budget for a provided month. No quotes needed, just valid numbers for thier fields
 
-expense-tracker check-budget --month ##
-
-# Export command, allows the user to export their expenses to a CSV file. The files name will be expenses.csv
-expense-tracker export
+# expense-tracker export
+Export command, allows the user to export their expenses to a CSV file. The files name will be expenses.csv
