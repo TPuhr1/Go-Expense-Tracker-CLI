@@ -28,9 +28,9 @@ make uninstall
  I will assume you are on linux and have installed this project into your ./bin folder
 
 ## Add
-Adds an expense, placing the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
+Adds an expense, placing the description and category belong in quotes while the price amount just needs to be a valid number, positive value, without quotes
 ```bash
-expense-tracker add --description "description" --amount $$ --category "category"
+expense-tracker add --description "Lunch" --amount 25 --category "Food"
 ```
 
 ## Delete
@@ -44,7 +44,7 @@ Allows you to list all of their expenses
 ```bash
 expense-tracker list
 ```
-Allows the user to also filter the results by category
+Allows the user to also filter the results by category, the category belongs in quotes
 ```bash
 expense-tracker list --category "category"
 ```
@@ -62,7 +62,7 @@ expense-tracker summary --month 12
 ## Budget 
 Allows you to set a budget for a particular month and amount, the month should be a valid number (1-12) and the amount should be a positive number
 ```bash
-expense-tracker budget --month 12 --amount $$
+expense-tracker budget --month 12 --amount 200
 ```
 
 ## Check-Budget
