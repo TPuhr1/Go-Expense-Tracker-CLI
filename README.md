@@ -24,26 +24,55 @@ Uninstall will remove it from your ./bin folder and allow you to build/install n
 make uninstall
 ```
 
-# -------------------------Project Commands--------------------------
+# Project Commands
  I will assume you are on linux and have installed this project into your ./bin folder
 
-# expense-tracker add --description "description" --amount $$ --category "category"
-Add command, the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
+## Add
+Adds an expense, placing the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
+```bash
+expense-tracker add --description "description" --amount $$ --category "category"
+```
 
-# expense-tracker delete --id 2
-Delete command, allows the user to delete expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
+## Delete
+Allows the user to delete expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
+```bash
+expense-tracker delete --id 2
+```
 
-# expense-tracker list
-# expense-tracker list --category "category"
-List command, allows you to list all or just some of your expenses based on their category
+## List 
+Allows you to list all of their expenses
+```bash
+expense-tracker list
+```
+Allows the user to also filter the results by category
+```bash
+expense-tracker list --category "category"
+```
 
-# expense-tracker summary
-# expense-tracker summary --month 12
-Summary command, allows you to see a summary of all charges, how much money you've spent in total, or just the ones that belong to a particular month. The month requires no quotes just a valid number(1-12).
+## Summary
+Allows you to see a summary of all charges, the total amount they've spent
+```bash
+expense-tracker summary
+```
+Allows the user to filter the results by month, the month requires no quotes and must be a valid number (1-12)
+```bash
+expense-tracker summary --month 12
+```
 
-# expense-tracker budget --month 12 --amount $$
-# expense-tracker check-budget --month 12
-Budget commands, there are two commands which are related to budget. The first allows you to set a budget for a particular month and amount, while the second allows you to simply check the budget for a provided month. No quotes needed, just valid numbers for thier fields
+## Budget 
+Allows you to set a budget for a particular month and amount, the month should be a valid number (1-12) and the amount should be a positive number
+```bash
+expense-tracker budget --month 12 --amount $$
+```
 
-# expense-tracker export
-Export command, allows the user to export their expenses to a CSV file. The files name will be expenses.csv
+## Check-Budget
+Allows you to simply check the budget for a provided month, the month should be a valid number (1-12)
+```bash
+expense-tracker check-budget --month 12
+```
+
+## Export
+Allows the user to export their expenses to a CSV file. The files name will be expenses.csv
+```bash
+expense-tracker export
+```
