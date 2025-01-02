@@ -15,7 +15,7 @@ Moves the project into ./bin folder so you can simply use expense-tracker in ter
 # Make Uninstall
 Uninstall will remove it from your ./bin folder and allow you to build/install new changes made to the project
 
-# -------------------------Project Commands-------------------------
+# --------------------------Project Commands--------------------------
 I will assume you are on linux and have installed this project into your ./bin folder
 
 # expense-tracker add --description "description" --amount $$ --category "category"
