@@ -16,7 +16,7 @@ Moves the project into ./bin folder so you can simply use expense-tracker in ter
 Uninstall will remove it from your ./bin folder and allow you to build/install new changes made to the project
 
 # -------------------------Project Commands--------------------------
-##### I will assume you are on linux and have installed this project into your ./bin folder
+ I will assume you are on linux and have installed this project into your ./bin folder
 
 # expense-tracker add --description "description" --amount $$ --category "category"
 Add command, the description and category belong in "" while the price amount just needs to be a valid number, positive value, without quotes
