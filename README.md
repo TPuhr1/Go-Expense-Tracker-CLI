@@ -8,6 +8,9 @@ The project currently keeps track of the budget and expenses with the use of .js
 # -----------------Make file commands for Linux-----------------
 
 # Make Build
+```bash
+make build
+```
 Builds the project 
 # Make Install
 Moves the project into ./bin folder so you can simply use expense-tracker in terminal instead of the projects file location
