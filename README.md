@@ -46,7 +46,7 @@ expense-tracker list
 ```
 Allows the user to also filter the results by category, the category belongs in quotes
 ```bash
-expense-tracker list --category "category"
+expense-tracker list --category "Food"
 ```
 
 ## Summary
