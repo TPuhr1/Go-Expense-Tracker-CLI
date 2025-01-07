@@ -36,45 +36,45 @@ expense-tracker add --description "Lunch" --amount 25 --category "Food"
 ```
 
 ## Delete
-Allows the user to delete expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
+Deletes expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
 ```bash
 expense-tracker delete --id 2
 ```
 
 ## List 
-Allows you to list all of their expenses
+Lists all of their expenses
 ```bash
 expense-tracker list
 ```
-Allows the user to also filter the results by category, the category belongs in quotes
+Lists expenses filtering the results by category, the category belongs in quotes
 ```bash
 expense-tracker list --category "Food"
 ```
 
 ## Summary
-Allows you to see a summary of all charges, the total amount they've spent
+Summary of all charges, displays the total amount they've spent
 ```bash
 expense-tracker summary
 ```
-Allows the user to filter the results by month, the month requires no quotes and must be a valid number (1-12)
+Summary of all charges filtered by month, the month requires no quotes and must be a valid number (1-12)
 ```bash
 expense-tracker summary --month 12
 ```
 
 ## Budget 
-Allows you to set a budget for a particular month and amount, the month should be a valid number (1-12) and the amount should be a positive number
+Sets a budget for a particular month and amount, the month should be a valid number (1-12) and the amount should be a positive number
 ```bash
 expense-tracker budget --month 12 --amount 200
 ```
 
 ## Check-Budget
-Allows you to simply check the budget for a provided month, the month should be a valid number (1-12)
+Checks the budget for a provided month, the month should be a valid number (1-12)
 ```bash
 expense-tracker check-budget --month 12
 ```
 
 ## Export
-Allows the user to export their expenses to a CSV file. The files name will be expenses.csv
+Exports all expenses to a CSV file, the file's name will be expenses.csv
 ```bash
 expense-tracker export
 ```
