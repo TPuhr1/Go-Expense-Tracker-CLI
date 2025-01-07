@@ -1,6 +1,7 @@
 <p align="center">
   <img src="images/Expense-Tracker.png" alt="Banner picture"/>
 </p>
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/TPuhr1/Go-Expense-Tracker-CLI)
 
 This is a project from Roadmap.sh, here is the link: https://roadmap.sh/projects/expense-tracker
