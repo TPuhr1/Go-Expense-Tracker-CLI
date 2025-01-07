@@ -36,7 +36,7 @@ expense-tracker add --description "Lunch" --amount 25 --category "Food"
 ```
 
 ## Delete
-Deletes expenses by thier ID. The ID doesn't need to be in quotes, just a valid id number in your list
+Deletes expenses by thier ID. The ID doesn't need to be in quotes, just a valid ID number in your list
 ```bash
 expense-tracker delete --id 2
 ```
