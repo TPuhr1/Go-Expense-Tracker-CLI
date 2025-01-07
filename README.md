@@ -1,4 +1,5 @@
 # Go-Expense-Tracker-CLI
+![Alt text](images/Expense-Tracker.png)
 This is a project from Roadmap.sh, here is the link: https://roadmap.sh/projects/expense-tracker
 
 This project allows the user to keep track of expenses through the command line. You can add, delete, list, and summarize your expenses. You can also set a budget for a particular month. The budget is automatically checked when a new expense is added, but you can also manually  check with the check-budget command whenever you want. I have also implemented an export command to export the expenses to a CSV file.
